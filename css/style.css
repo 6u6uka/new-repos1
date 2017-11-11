@@ -117,8 +117,8 @@ section#who_are_we h1 {
 .team_photo li {
   display: inline-block;
   vertical-align: top;
-  margin-left: 7px;
-  margin-right: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .team_photo img{
   width: 98%;
