@@ -1,0 +1,279 @@
+/*============    ШРИФТЫ    ===========*/
+body {
+  font-family: 'PT Sans', arial;
+}
+.med {
+  font-family: 'PT Sans';
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+section#logo {
+  background: url(../img/background/first_background.jpg) no-repeat center center;
+  height: 400px;
+}
+.logo_header h1 {
+  text-transform: uppercase;
+  margin-top: 84px;
+  color: #fff;
+}
+.logotype {
+  width: 55px;
+  height: 55px;
+  margin: 16px auto;
+}
+/*============    about    ===========*/
+section#about h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 80px;
+}
+section#about .band {
+  margin: 16px auto;
+  width: 150px;
+  height: 1px;
+  border: 2px solid #1799b0;
+  margin-bottom: 50px;
+}
+/*    ====card====     */
+.cards {
+  width: 908px;
+  height: 300px;
+  margin: 0 auto;
+}
+.cards ul,
+.cards li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.cards li {
+  display: inline-block;
+}
+.cards img {
+  display: inline-block;
+  margin-top: 5px;
+}
+.descr {
+  position: absolute;
+  margin-top: 230px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 300px;
+}
+.descr h3,
+.descr p {
+  margin-left: 8px;
+}
+.descr h3 {
+  font-size: 18px;
+}
+.descr p {
+  font-size: 14px;
+}
+.cards_big {
+  width: 984px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.cards_big ul,
+.cards_big li {
+  display: inline-block;
+}
+.cards_big img {
+  display: inline-block;
+}
+.descr_big {
+  position: absolute;
+  margin-top: 222px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 450px;
+}
+.descr_big h3,
+.descr_big p {
+  margin-left: 8px;
+}
+.descr_big h3 {
+  font-size: 18px;
+}
+.descr_big p {
+  font-size: 14px;
+}
+/*============    who are we    ===========*/
+section#who_are_we h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 84px;
+}
+.band2 {
+  margin: 16px auto;
+  width: 150px;
+  height: 1px;
+  border: 2px solid #1799b0;
+  margin-bottom: 50px;
+}
+/*   =====team=====    */
+.team_photo ul,
+.team_photo li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.name_words {
+  font-size: 16px;
+}
+/*============    blog    ===========*/
+section#blog h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 80px;
+}
+.band3 {
+  margin: 16px auto;
+  width: 150px;
+  height: 1px;
+  border: 2px solid #1799b0;
+  margin-bottom: 50px;
+}
+/*       =====    blog text    ====      */
+.blog_text {
+  width: 700px;
+  margin: 0 auto;
+}
+.first_text h2,
+.second_text h2,
+.third_text h2 {
+  font-size: 24px;
+}
+.first_text p,
+.second_text p,
+.third_text p {
+  font-size: 17px;
+  margin-left: 20px;
+}
+.second_text {
+  margin-top: 50px;
+}
+.third_text {
+  margin-top: 50px;
+}
+.show_more {
+  margin: 50px auto 125px;
+  width: 215px;
+  height: 40px;
+  background-color: #a8cc63;
+}
+.show_more h2 {
+  color: white;
+  font-size: 18px;
+  padding-top: 12px;
+}
+.show_more a {
+  text-decoration: none;
+}
+details summary {
+  color: #167fab;
+}
+details summary:focus {
+  display: none;
+}
+details summary:hover {
+  cursor: pointer;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+/*============    follow us    ===========*/
+section#follow_us h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 80px;
+}
+section#follow_us .band4 {
+  margin: 16px auto 50px;
+  width: 150px;
+  height: 1px;
+  border: 2px solid #1799b0;
+}
+/*       =====    form    =====      */
+.form {
+  width: 710px;
+  height: 140px;
+  margin: 0 auto;
+}
+.form .about_me #info_me {
+  width: 350px;
+  height: 140px;
+  position: absolute;
+  margin-top: -126px;
+  padding-bottom: 100px;
+}
+.form input {
+  width: 350px;
+  height: 40px;
+  margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.form .name,
+.form .email,
+.form .phone_number {
+  width: 350px;
+}
+.contact_form,
+.about_me {
+  display: inline-block;
+}
+.sand_form {
+  width: 227px;
+  height: 45px;
+  margin: 13px auto 159px;
+}
+.sand_form input#send {
+  font-family: 'PT Sans';
+  width: 227px;
+  height: 45px;
+  background-color: #1799b0;
+  color: white;
+  font-size: 24px;
+  border: none;
+}
+/*============    footer    ===========*/
+.footer {
+  background-color: #242628;
+}
+.social_network {
+  width: 350px;
+  height: 47px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.first {
+  width: 125px;
+  color: white;
+  font-size: 14px;
+  margin-right: -35px;
+}
+.social {
+  width: 140px;
+}
+.social ul,
+.social li {
+  display: inline-block;
+}
+.second {
+  width: 120px;
+  color: white;
+  font-size: 14px;
+  margin-left: -9px;
+}
+.first,
+.social,
+.second {
+  display: inline-block;
+}
+.social img:hover {
+  width: 110%;
+  margin-right: 5px;
+}
